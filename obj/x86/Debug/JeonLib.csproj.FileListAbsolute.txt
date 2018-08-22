@@ -1,0 +1,15 @@
+D:\github\JeonLIb\obj\x86\Debug\JeonLib.csproj.CoreCompileInputs.cache
+D:\github\JeonLIb\obj\x86\Debug\JeonLib.dll
+D:\github\JeonLIb\obj\x86\Debug\JeonLib.pdb
+D:\github\JeonLIb\bin\Debug\JeonLib.dll
+D:\github\JeonLIb\bin\Debug\JeonLib.pdb
+D:\github\JeonLIb\bin\Debug\UnityEngine.dll
+D:\github\JeonLIb\bin\Debug\UnityEngine.xml
+D:\github\JeonLIb\obj\x86\Debug\JeonLib.csproj.CopyComplete
+D:\github\JeonLIb\bin\Debug\Google.Protobuf.dll
+D:\github\JeonLIb\bin\Debug\MySql.Data.dll
+D:\github\JeonLIb\bin\Debug\Newtonsoft.Json.dll
+D:\github\JeonLIb\bin\Debug\Google.Protobuf.xml
+D:\github\JeonLIb\bin\Debug\MySql.Data.xml
+D:\github\JeonLIb\bin\Debug\Newtonsoft.Json.xml
+D:\github\JeonLIb\obj\x86\Debug\JeonLib.csprojAssemblyReference.cache
