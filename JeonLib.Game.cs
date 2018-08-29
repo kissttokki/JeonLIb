@@ -21,9 +21,18 @@ namespace JeonLib.Game
 
         public static string GetCSGOPath()
         {
-            return Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\csgo.exe\shell\open\command",
-                       null,
-                       "null?").ToString().Replace(@".exe"" ""%1""", "").Replace(@"""", "");
+            try
+            {
+                return Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\csgo.exe\shell\open\command",
+                           null,
+                           "null?").ToString().Replace(@".exe"" ""%1""", "").Replace(@"""", "");
+            }
+            catch
+            {
+                return Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Valve.Source\shell\open\command",
+                             null,
+                             "null?").ToString().Replace(@".exe"" ""%1""", "").Replace(@"""", "");
+            }
         }
     }
 }
